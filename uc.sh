@@ -1,10 +1,10 @@
 #!/bin/bash -x
 
 read a
-
 read b
-
 read c
 
 
-calc=$(($a+$b*$c))
+calc1=$(($a+$b*$c))
+
+calc2=$(($a*$b+$c))
