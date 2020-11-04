@@ -20,4 +20,5 @@ echo ${dict[@]}
 
 array=${dict[@]}
 
-echo $array | tr ' ' '\n' | sort -r
+#echo $array | tr ' ' '\n' | sort -r
+echo $array | tr ' ' '\n' | sort -n
