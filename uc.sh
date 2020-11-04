@@ -17,3 +17,6 @@ compute4=$(($a%$b+$c))
 
 dict=([1]=$compute1 [2]=$compute2 [3]=$compute3 [4]=$compute4)
 echo ${dict[@]}
+
+array=${dict[@]}
+
