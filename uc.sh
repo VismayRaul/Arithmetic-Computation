@@ -1,8 +1,10 @@
 #!/bin/bash -x
 
-read -p "input a= " $a
+read a
 
-read -p "input b= " $b
+read b
 
-read -p "input c= " $c
+read c
 
+
+calc=$(($a+$b*$c))
